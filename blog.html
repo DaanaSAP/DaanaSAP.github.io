@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/LOGO.png" alt="Petfriend.com"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li class="nav-items"><a href="index.html">inicio</a></li>
+                    <li class="nav-items"><a href="informacion.html">informacion</a></li>
+                    <li class="nav-items"><a href="servicios.html">servicios</a></li>
+                    <li class="nav-items"><a href="blog.html">Blog</a></li>
+                    <li class="nav-items"><a href="contactos.html">contactos</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>BIOGRAFIAS DE ANIMALES EN ADOPCION</h1>
+
+    </section>
+
+    <!-- -----------Footer------------------->
+    <section class="blog-content">
+        <h1>MASCOTAS DISPONIBLES PARA ADOPCION</h1>
+        <p>escoge una y adopta registrandote en la plataforma</p>
+        <div class="row">
+            <div class="facilities-col">
+                <div class="course-col">
+                <img src="img/perro (1).jpg">
+                <h3>CHUFLAY</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p> <br>
+                <a href="" class="hero-btn red-btn">ADOPTAR</a>
+            </div>
+            </div>
+            <div class="facilities-col">
+                <div class="course-col">
+                <img src="img/perro (2).jpg">
+                <h3>DOGUI</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p> <br>
+                <a href="" class="hero-btn red-btn">ADOPTAR</a>
+</div>
+            </div>
+            <div class="facilities-col">
+                <div class="course-col">
+                <img src="img/perro (3).jpg">
+                <h3>TUBO</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p> <br>
+                    <a href="" class="hero-btn red-btn">ADOPTAR</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="facilities-col">
+                <div class="course-col">
+                <img src="img/perro(4).png">
+                <h3>FUCK DOCBOY</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p> <br>
+                <a href="" class="hero-btn red-btn">ADOPTAR</a>
+            </div>
+            </div>
+            <div class="facilities-col">
+                <div class="course-col">
+                <img src="img/perro(5).png">
+                <h3>DOGUI DOC</h3>
+                <p>El que sabe sabe el que no, es un doctor. el conocimiento es poder.</p> <br>
+                <a href="" class="hero-btn red-btn">ADOPTAR</a>
+            </div>
+            </div>
+            <div class="facilities-col">
+                <div class="course-col">
+                <img src="img/perro(6).png">
+                <h3>EL TEQUILA</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p> <br>
+                    <a href="" class="hero-btn red-btn">ADOPTAR</a>
+                </div>
+            </div>
+        </div>
+
+                <div class="comment-box">
+                    <h3>ADOPTA REGISTRATE</h3>
+                    <form class="comment-form">
+                        <input type="nombre" placeholder="NOMBRE">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Contraseña">
+                        <textarea type="text" rows="5" placeholder="COMENTA TU EXPRECIENCIA"></textarea>
+                        <button class="hero-btn red-btn">ENVIAR REGISTRO</button>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <hr>
+    <!-- -----------Footer------------------->
+    <section class="footer">
+        <h4>Quienes somos</h4>
+        <p>Somos una organización protectora de animales especializada, desde 1996.<br>donde creamos esta pagaina para que tu puedas interactuar y ver a los perritos que necesitan de ti de tu cariño por eso <br> pensamos en esta pagina para que puedas adoptar a un animalito de la calle</p>
+
+            <div class="icons">
+                <a href="https://www.facebook.com/adopcionmascotascochabamba?mibextid=LQQJ4d"
+                    target="_blank" rel="noreferrer noopener"><i class="fa fa-facebook"></i></a>
+                <a href="https://instagram.com/losangelitosdevioleta?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noreferrer noopener"><i
+                        class="fa fa-instagram"></i></a>
+            </div>
+            <p>creado por: <br>Ascanio Claros <br>daana alba <br>gabriel bautist <br>mauro zarate<br>arnold flores</p>
+        </section>
+</body>
+
+<!-- -----------JAVA Script------------------->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</html>

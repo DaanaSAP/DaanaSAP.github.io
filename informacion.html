@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>informacion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/LOGO.png" alt="Petfriend.com"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li class="nav-items"><a href="index.html">inicio</a></li>
+                    <li class="nav-items"><a href="informacion.html">informacion</a></li>
+                    <li class="nav-items"><a href="servicios.html">servicios</a></li>
+                    <li class="nav-items"><a href="blog.html">Blog</a></li>
+                    <li class="nav-items"><a href="contactos.html">contactos</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>INFORMACION</h1>
+
+    </section>
+
+    <!------------------INFORMACION content-->
+    <section class="about-us">
+        <div class="row">
+            <div class="row">
+                <div class="about-col">
+                    <div class="course-col">
+                    <h1>QUIENES SOMOS </h1>
+                    <p>Somos una organización protectora de animales especializada, desde 1996, en la ayuda a perros y gatos maltratados y/o abandonados; una organización española totalmente independiente que no recibe subvenciones de organismos oficiales, empresas ni partidos políticos.</p>
+                    <a href="" class="hero-btn red-btn">EXPLORA MAS</a>
+                    </div>
+                </div>
+
+            <div class="about-col">
+                <img src="img/1920 x 1080 nosotros.png">
+            </div>
+        </div>
+    </section>
+
+    <hr>
+    <!-- -----------Footer------------------->
+    <section class="footer">
+        <!-- <h4>About Us</h4> -->
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis -->
+        <!-- porro incidunt odio? Consequuntur, <br> velit? -->
+        <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. -->
+        <!-- Reiciendis a, accusamus temporibus.</p> -->
+
+        <div class="icons">
+            <a href="https://www.facebook.com/adopcionmascotascochabamba?mibextid=LQQJ4d"
+                target="_blank" rel="noreferrer noopener"><i class="fa fa-facebook"></i></a>
+            <a href="https://instagram.com/losangelitosdevioleta?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noreferrer noopener"><i
+                    class="fa fa-instagram"></i></a>
+        </div>
+        <p>creado por: <br>Ascanio Claros <br>daana alba <br>gabriel bautist <br>mauro zarate<br>arnold flores</p>
+    </section>
+</body>
+
+<!-- -----------JAVA Script------------------->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</html>

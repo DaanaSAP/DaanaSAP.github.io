@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>servicios</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/LOGO.png" alt="Petfriend.com"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li class="nav-items"><a href="index.html">inicio</a></li>
+                    <li class="nav-items"><a href="informacion.html">informacion</a></li>
+                    <li class="nav-items"><a href="servicios.html">servicios</a></li>
+                    <li class="nav-items"><a href="blog.html">Blog</a></li>
+                    <li class="nav-items"><a href="contactos.html">contactos</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>SERVICIOS</h1>
+
+    </section>
+
+    <!------------------SERVICIOS content-->
+
+
+    <section class="course">
+        <h1>SERVICIOS QUE OFRECEMOS</h1>
+        <p>todo lo bueno para que tu mascota este bien</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>limpieza De Canes</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, maiores? Culpa quidem, dolorum rerum
+                    doloremque nihil illo sunt magni in velit perferendis! Dolorem perferendis animi laudantium beatae
+                    tempore soluta assumenda! Molestias a error aperiam!</p>
+            </div>
+            <div class="course-col">
+                <h3>Esterilización</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, maiores? Culpa quide
+                    doloremque nihil illo sunt magni in velit perferendis! Dolorem perferendis animi la
+                    tempore soluta assumenda! Molestias a error aperiam!</p>
+            </div>
+            <div class="course-col">
+                <h3>Cuidado De Canes</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, maiores? Culpa quide
+                    doloremque nihil illo sunt magni in velit perferendis! Dolorem perferendis animi la
+                    tempore soluta assumenda! Molestias a error aperiam!</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -----------Facility------------------->
+    <section class="facilities">
+        <h1>nuestras sucursales</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quia.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="img/SUCURSAL (1).jpg">
+                <h3>QUILLACOLLO</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/SUCURSAL (2).jpg">
+                <h3>SACABA</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p> 
+            </div>
+            <div class="facilities-col">
+                <img src="img/SUCURSAL (3).jpg">
+                <h3>SIPE SIPE </h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <hr>
+
+    <!-- -----------Footer------------------->
+    <section class="footer">
+        <!-- <h4>About Us</h4> -->
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis -->
+        <!-- porro incidunt odio? Consequuntur, <br> velit? -->
+        <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. -->
+        <!-- Reiciendis a, accusamus temporibus.</p> -->
+
+        <div class="icons">
+            <a href="https://www.facebook.com/adopcionmascotascochabamba?mibextid=LQQJ4d"
+                target="_blank" rel="noreferrer noopener"><i class="fa fa-facebook"></i></a>
+            <a href="https://instagram.com/losangelitosdevioleta?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noreferrer noopener"><i
+                    class="fa fa-instagram"></i></a>
+        </div>
+        <p>creado por: <br>Ascanio Claros <br>daana alba <br>gabriel bautist <br>mauro zarate<br>arnold flores</p>
+    </section>
+</body>
+
+<!-- -----------JAVA Script------------------->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</html>

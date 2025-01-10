@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/LOGO.png" alt="Petfriend.com"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li class="nav-items"><a href="index.html">inicio</a></li>
+                    <li class="nav-items"><a href="informacion.html">informacion</a></li>
+                    <li class="nav-items"><a href="servicios.html">servicios</a></li>
+                    <li class="nav-items"><a href="blog.html">Blog</a></li>
+                    <li class="nav-items"><a href="contactos.html">contactos</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>CONTACTENOS </h1>
+
+    </section>
+
+
+    <!--------------------contactenos section-->
+
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13420.377956654158!2d77.0855398782615!3d28.857127020550937!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390da97cd61b3a37%3A0x386d209f7a424384!2sNarela%2C%20New%20Delhi!5e1!3m2!1sen!2sin!4v1657741498089!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="Contactenos">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Bolivia-cochabamba</h5>
+                        <p>Numero 450 esquina quillacollo</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>Telf: 489-1247</h5>
+                        <p>lunes a viernes de 10AM a 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>Petfriend.com</h5>
+                        <p>Mandenos su consulta</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="index.php" method="post">
+                    <input type="text" name="Nombre" placeholder="Nombre" required>
+                    <input type="email"name="email" placeholder="Direccion de correo" required>
+                    <input type="text" name="Texto" placeholder="Texto" required>
+                    <textarea rows="8" name="mensaje" placeholder="Tu Mensaje" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <hr>
+    <!-- -----------Footer------------------->
+    <section class="footer">
+        <h4>QUIENES SOMOS</h4>
+        <p>Somos una organización protectora de animales especializada, desde 1996.<br>donde creamos esta pagaina para que tu puedas interactuar y ver a los perritos que necesitan de ti de tu cariño por eso <br> pensamos en esta pagina para que puedas adoptar a un animalito de la calle</p>
+
+            <div class="icons">
+                <a href="https://www.facebook.com/adopcionmascotascochabamba?mibextid=LQQJ4d"
+                    target="_blank" rel="noreferrer noopener"><i class="fa fa-facebook"></i></a>
+                <a href="https://instagram.com/losangelitosdevioleta?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noreferrer noopener"><i
+                        class="fa fa-instagram"></i></a>
+            </div>
+            <p>creado por: <br>Ascanio Claros <br>daana alba <br>gabriel bautist <br>mauro zarate<br>arnold flores</p>
+        </section>
+</body>
+
+<!-- -----------JAVA Script------------------->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</html>
